@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style-aba-cadastro-do-usuario-etapa-2-autenticacao-dois-fatores.css">
+  <link rel="stylesheet" href="css/media-querie-aba-cadastro-do-usuario-etapa-2-autenticacao-dois-fatores.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div class="containerseg">
+
+    <!--CAIXA MENSAGEM DE ERRO-->
+    <div id="custom-alert" class="hidden">
+      <div class="alert-box">
+        <p id="alert-message">Mensagem de alerta!</p>
+        <button onclick="closeAlert()">OK</button>
+      </div>
+    </div>
+
+    <!--BOTÃO VOLTAR-->
+    <div class="tituloca">
+      <a class="ini" href="aba-cadastro-do-usuario-etapa-1-dados.html"></a>
+      <p class="titca"></p>
+    </div>
+
+    <div class="f2">
+      <div class="f22">
+        <div class="ct2f">
+          <div class="t2f">segurança</div>
+        </div>
+        <label for="" id="ff2">autenticação de dois fatores:</label>
+        <select name="" id="ad">
+          <option value="">ativado</option>
+          <option value="">desativado</option>
+        </select>
+
+        <label for="confemail1" id="confemail">codigo de confirmação email</label>
+        <input type="text" id="confemail1" type="number">
+
+        <label for="conftel1" id="conftel">codigo de confirmação telefone</label>
+        <input type="text" id="conftel1" type="number">
+
+        <div class="btnsconfs">
+          <button id="btnconfmail">reenviar</button>
+          <button id="btnconfmail2">simular codigo</button>
+        </div>
+      </div>
+
+      <div class="bb">
+        <button class="bu" id="bu"></button>
+      </div>
+
+      <script src="js/aba-cadastro-do-usuario-etapa-2-autenticacao-dois-fatores.js"></script>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style-inicio.css">
+  <link rel="stylesheet" href="css/style-tela-inicial-logado.css">
+  <link rel="stylesheet" href="css/style-menu-de-navegacao-aba-configuracoes.css">
+  <link rel="stylesheet" href="css/medias-queries-cursos.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="containerl">
+
+    <!--CAIXA MENSAGEM DE ERRO 1-->
+    <div id="custom-alert" class="hidden">
+      <div class="alert-box">
+        <p id="alert-message">Mensagem de alerta!</p>
+        <button onclick="closeAlert()">OK</button>
+      </div>
+    </div>
+
+    <!--CAIXA MENSAGEM DE ERRO 2-->
+    <div id="custom-alert2" class="hidden2">
+      <div class="alert-box2">
+        <p id="alert-message2">Mensagem de alerta!</p>
+        <button onclick="closeAlert2()">OK</button>
+      </div>
+    </div>
+
+
+    <div class="l">
+      <a class="ll" href="tela-inicial-logado.html"></a>
+      <a class="nt" href="tela-inicial-logado.html">INFORME<BR>ESTUDANTIL</a>
+    </div>
+
+
+    <div class="menu">
+      <a class="cursos" href="menu-de-navegacao-aba-cursos.html">CURSOS</a>
+      <a class="meus" href="menu-de-navegacao-aba-meus-cursos.html">MEUS<br>CURSOS</a>
+      <a class="certificados" href="menu-de-navegacao-aba-meus-certificados.html">MEUS<BR>CERTIFICADOS</a>
+      <a class="conf" href="menu-de-navegacao-aba-configuracoes.html">CONFIGURAÇÕES</a>
+      <a class="sair" href="index.html">SAIR</a>
+    </div>
+
+    <a class="sair2" href="index.html"></a>
+    <a class="conf2" href="menu-de-navegacao-aba-configuracoes.html"></a>
+
+
+
+    <DIV class="painel">
+      <p class="tit1">Perfil / Conta</p>
+
+      <div class="perfil">
+        <form class="f" action="">
+          <label class="n1" for="n2">NOME</label>
+          <input class="n2" type="text" readonly>
+          <br>
+
+          <label class="u1" for="u2">USUARIO</label>
+          <input class="u2" type="text" readonly>
+          <br>
+
+
+          <label class="em1" for="em2">EMAIL</label>
+          <input class="em2" type="text" readonly>
+          <br>
+
+          <label class="ttt1" for="ttt2">TELEFONE</label>
+          <input class="ttt2" type="text" readonly>
+          <br>
+
+          <label class="cp1" for="cp2">CPF</label>
+          <input class="cp2" type="text" readonly>
+          <br>
+
+          <label class="r1" for="r2">RG</label>
+          <input class="r2" type="text" readonly>
+          <br>
+
+          <label class="e1" for="e2">ENDEREÇO</label>
+          <input class="e2" type="text" readonly>
+
+          <label class="d1" for="d2">DATA DE NASCIMENTO</label>
+          <input class="d2" type="text" readonly>
+
+          <label class="g1" for="g2">GÊNERO</label>
+          <select name="" class="g2" id="g2" disabled>
+            <option value="" disabled selected hidden>Selecione seu gênero</option>
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+            <option value="outro">Outro</option>
+          </select>
+        </form>
+        <div class="bb">
+          <button class="bu1" id="bu1">ALTERAR</button>
+          <button class="bu2" id="bu2">desfazer alterações</button>
+        </div>
+      </div>
+
+
+      <p class="tit2">Pagamento / Assinatura</p>
+      <div class="plan">
+
+        <div class="cfplan">
+          <div class="fplan">
+            <p class="ctp1" id="ctp1"></p>
+            <p class="cvp1" id="cvp1"></p>
+          </div>
+        </div>
+
+        <div class="planops">
+
+          <div class="btnsdiv">
+            <button id="o1" class="op1">Alterar
+              plano</button>
+
+            <button id="o2" class="op2">Atualizar
+              forma de pagamento</button>
+
+            <button id="o3" class="op3">Cancelar assinatura</button>
+
+            <button id="o4" class="op4">Reativar
+              plano</button>
+
+            <button id="o5" class="op5">alterar cartao de credito</button>
+
+            <button id="o6" class="op6"
+              onclick="window.location.href='aba-ativacao-plano-pagamento-visualizacao-etapa-2-situacao-plano.html'">
+              situação do meu plano</button>
+          </div>
+        </div>
+      </div>
+
+
+
+      <p class="tit3">Segurança / Senha</p>
+      <div class="seg">
+        <a class="s0" href="aba-alterar-email-etapa-1.html">Alterar meu email</a>
+        <a class="s1" href="aba-alterar-senha-logado-etapa-1.html">Alterar minha senha</a>
+        <a class="s2" href="aba-autenticacao-dois-fatores-logado.html">Autenticação<br>de dois fatores</a>
+        <a class="s3" href="aba-sessoes-ativas.html">Sessões ativas</a>
+      </div>
+
+
+
+
+      <p class="tit4">Notificações / Preferências</p>
+
+      <div class="not">
+        <a class="not1" href="aba-preferencias-de-notificacoes-logado.html">Preferências de notificação</a>
+      </div>
+
+
+
+
+      <p class="tit5">Privacidade</p>
+
+      <div class="dad">
+        <a class="dad1" href="aba-excluir-conta-etapa-1.html">EXCLUIR MINHA CONTA</a>
+        <a class="dad2" href="aba-baixar-dados.html">Baixar dados pessoais</a>
+      </div>
+
+
+      <p class="tit6">Ajuda / Suporte</p>
+
+      <div class="faq">
+        <a class="faq1" href="aba-ajuda-chat-com-suporte.html">Chat com suporte</a>
+        <a class="faq2" href="aba-ajuda-faq.html">FAQ</a>
+        <a class="faq4" href="aba-ajuda-termos-uso-logado.html">Termos de uso</a>
+      </div>
+
+
+
+    </DIV>
+
+    <script src="js/aba-configuracoes.js"></script>
+    <script src="js/aba-configuracoes-plano.js"></script>
+    <script src="js/aba-configuracoes-perfil.js"></script>
+    <script src="js/aba-configuracoes-alterar-perfil-btn-editar.js"></script>
+    <script src="js/aba-configuracoes-alterar-perfil-btn-desfazer-alteracoes.js"></script>
+  </div>
+</body>
+
+</html>

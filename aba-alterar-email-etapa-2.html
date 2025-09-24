@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style-aba-alterar-email-etapa-2.css">
+  <link rel="stylesheet" href="css/media-querie-alterar-email.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div class="containerseg">
+
+    <!--CAIXA MENSAGEM DE ERRO-->
+    <div id="custom-alert" class="hidden">
+      <div class="alert-box">
+        <p id="alert-message">Mensagem de alerta!</p>
+        <button onclick="closeAlert()">OK</button>
+      </div>
+    </div>
+
+    <!--BOTÃO VOLTAR-->
+    <div class="tituloca">
+      <a class="ini" href="aba-alterar-email-etapa-1.html"></a>
+      <p class="titca"></p>
+    </div>
+
+    <div class="f2">
+      <div class="f22">
+        <div class="ct2f">
+          <div class="t2f">ALTERAR MEU E-MAIL - ETAPA 2</div>
+        </div>
+        <label for="" id="ff2">UM CODIGO DE VERICAÇÃO FOI ENVIADO PARA SEU EMAIL:</label>
+
+        <label for="confemail1" id="confemail">codigo de confirmação email</label>
+        <input type="text" id="confemail1" type="number">
+
+        <div class="btnsconfs">
+          <button id="btnconfmail">reenviar</button>
+          <button id="btnconfmail2">simular codigo</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="bb">
+      <button class="bu" id="bu"></button>
+    </div>
+
+    <script src="js/aba-alterar-email-etapa-2.js"></script>
+
+  </div>
+</body>
+
+</html>
