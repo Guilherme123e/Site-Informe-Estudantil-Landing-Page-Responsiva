@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gagalin&display=swap');
+
+
+
+
+
+
+
+/*REPONSIVIDADE*/
+
+
+
+
+
+
+
+
+@media (min-width: 0px) and (max-width: 666px) {
+
+
+  .pl {
+    font-size: 17px;
+  }
+
+  .titca {
+
+    height: 100px;
+    width: 150px;
+    top: 10px;
+    right: 10px;
+    position: absolute;
+    margin-right: 0px;
+    margin-top: 0px;
+  }
+
+  .ini {
+    width: 100px;
+    height: 100px;
+    top: 20px;
+    left: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    position: absolute;
+  }
+
+
+
+  .formas {
+    gap: 40px;
+  }
+
+
+  .pix {
+    flex: 1;
+    height: 310px;
+    cursor: pointer;
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    min-width: 200px;
+  }
+
+  .qr1 {
+    background-image: url('./imagens/pix.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 200px;
+    width: 200px;
+  }
+
+
+
+
+
+
+
+  .boleto {
+    flex: 1;
+    height: 310px;
+    cursor: pointer;
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    min-width: 200px;
+  }
+
+  .qr2 {
+    background-image: url('./imagens/boleto.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 170px;
+    width: 170px;
+  }
+
+
+
+
+
+
+  .credito {
+    flex: 1;
+    height: 310px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    justify-content: top;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .qr3 {
+    background-image: url('./imagens/credit.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 250px;
+    width: 200px;
+    margin-bottom: 60px;
+  }
+
+
+  .bu {
+    margin-top: 120px;
+    margin-bottom: 50px;
+  }
+
+  .fp {
+    font-size: 16px;
+  }
+
+
+
+}

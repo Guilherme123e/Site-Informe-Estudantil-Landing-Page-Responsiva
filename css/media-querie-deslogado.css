@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gagalin&display=swap');
+
+
+
+
+
+
+
+/*REPONSIVIDADE*/
+
+
+
+
+
+
+
+
+@media (min-width: 0px) and (max-width: 740px) {
+
+
+  .entrar {
+    position: absolute;
+    background-image: url('./imagens/login.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    top: 20px;
+    right: 80px;
+    margin-right: 0px;
+    color: transparent;
+    z-index: 5;
+  }
+
+  .cadastrar {
+    position: absolute;
+    background-image: url('./imagens/cad.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    top: 20px;
+    right: 30px;
+    margin-right: 0px;
+    color: transparent;
+  }
+
+  .l {
+    height: 100%;
+  }
+
+  .ll {
+    margin-left: 0px;
+    height: 80px;
+    width: 80px;
+  }
+
+  .nt {
+    margin-left: 90px;
+    font-size: 13px;
+    margin-top: 85px;
+  }
+
+
+  .b1 {
+    height: 0px;
+    margin-top: 30vw;
+    margin-bottom: 0px;
+  }
+
+  .cc {
+    font-size: 7vw;
+  }
+
+
+  .logos {
+    margin-top: 30vw;
+    border-top: 5px solid black;
+    border-radius: 20px;
+  }
+
+  .l1,
+  .l2,
+  .l3,
+  .l4,
+  .l5,
+  .l6,
+  .l7,
+  .l8,
+  .l9,
+  .l10,
+  .l11,
+  .l12,
+  .l13,
+  .l14,
+  .l15,
+  .l16 {
+    height: 40px;
+    width: 40px;
+    margin-top: 20px;
+  }
+
+  .b2 {
+    margin-top: 90px;
+    height: 40px;
+  }
+
+  .b22 {
+    font-size: 17px;
+  }
+
+  .plans {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 90px;
+    gap: 50px;
+  }
+
+  .plan1 {
+    width: 100%;
+    height: 200px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-radius: 10px;
+  }
+
+  .tp1 {
+    font-size: 20px;
+
+  }
+
+  .vp1 {
+    font-size: 20px;
+    margin-top: 70px;
+  }
+
+  .plan2 {
+    width: 100%;
+    height: 200px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-radius: 10px;
+  }
+
+  .tp2 {
+    font-size: 20px;
+
+  }
+
+  .vp2 {
+    font-size: 20px;
+    margin-top: 70px;
+  }
+
+
+  .rodape {
+    margin-top: 150px;
+    height: 400px;
+    background-color: rgb(0, 0, 0);
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:741px) and (max-width: 1334px) {
+
+
+  .entrar {
+    position: absolute;
+    right: 140px;
+    top: 110px;
+  }
+
+  .cadastrar {
+    position: absolute;
+    right: 20px;
+    top: 110px;
+    margin-right: 0px;
+  }
+
+  .ll {
+    margin-left: 20px;
+  }
+
+  .nt {
+    margin-left: 130px;
+    font-size: 22px;
+  }
+
+
+  .b1 {
+    height: 0px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .cc {
+    font-size: 55px;
+  }
+
+
+  .logos {
+    margin-top: 100px;
+  }
+
+  .l1,
+  .l2,
+  .l3,
+  .l4,
+  .l5,
+  .l6,
+  .l7,
+  .l8,
+  .l9,
+  .l10,
+  .l11,
+  .l12,
+  .l13,
+  .l14,
+  .l15,
+  .l16 {
+    height: 70px;
+    width: 70px;
+  }
+
+  .b2 {
+    margin-top: 90px;
+    height: 60px;
+  }
+
+  .b22 {
+    font-size: 34px;
+  }
+
+  .plans {
+    width: 70%;
+    margin-top: 90px;
+    gap: 50px;
+  }
+
+  .plan1 {
+    width: 100%;
+    height: 500px;
+  }
+
+  .tp1 {
+    font-size: 30px;
+
+  }
+
+  .vp1 {
+    font-size: 30px;
+    margin-top: 170px;
+  }
+
+  .plan2 {
+    width: 100%;
+    height: 500px;
+  }
+
+  .tp2 {
+    font-size: 30px;
+
+  }
+
+  .vp2 {
+    font-size: 30px;
+    margin-top: 170px;
+  }
+
+
+  .rodape {
+    margin-top: 150px;
+    height: 400px;
+    background-color: rgb(0, 0, 0);
+  }
+
+}
+
+
+
+@media (min-width: 0px) and (max-width: 400px) {
+
+  .entrar {
+    position: absolute;
+    background-image: url('./imagens/login.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    top: 20px;
+    right: 60px;
+    margin-right: 0px;
+    color: transparent;
+    z-index: 5;
+  }
+
+  .cadastrar {
+    position: absolute;
+    background-image: url('./imagens/cad.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    top: 20px;
+    right: 10px;
+    margin-right: 0px;
+    color: transparent;
+  }
+
+}
+
+
+@media (min-width: 0px) and (max-width: 714px) {
+  .rodape {
+    height: auto;
+    background-color: black;
+    width: 100%;
+    color: white;
+    padding: 40px 20px 20px 20px;
+    box-sizing: border-box;
+  }
+
+  .container-rodape {
+    max-width: 960px;
+    /* Largura total do conteúdo */
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* Centraliza todas as colunas */
+    gap: 40px;
+    /* Espaço entre colunas */
+  }
+
+  .rodape-coluna {
+    flex: 1 1 400px;
+    /* Cada coluna ocupa até 400px */
+    max-width: 400px;
+  }
+
+  .rodape-coluna h3 {
+    margin-bottom: 15px;
+    color: #ffffff;
+  }
+
+  .rodape-coluna ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .rodape-coluna ul li {
+    margin-bottom: 10px;
+  }
+
+  .rodape-coluna a {
+    color: #ccc;
+    text-decoration: none;
+  }
+
+  .rodape-coluna a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+
+  .copy {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #777;
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 715px) and (max-width: 1106px) {
+  .rodape {
+    height: auto;
+    /* altura automática para se adaptar ao conteúdo */
+    background-color: black;
+    width: 100%;
+    color: white;
+    padding: 40px 20px 20px 20px;
+    box-sizing: border-box;
+  }
+
+  .container-rodape {
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+
+  .rodape-coluna {
+    flex: 1;
+    /* duas colunas por linha */
+    margin: 20px 0;
+  }
+
+  .rodape-coluna h3 {
+    margin-bottom: 15px;
+    color: #ffffff;
+  }
+
+  .rodape-coluna ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .rodape-coluna ul li {
+    margin-bottom: 10px;
+  }
+
+  .rodape-coluna a {
+    color: #ccc;
+    text-decoration: none;
+  }
+
+  .rodape-coluna a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+
+  .copy {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #777;
+  }
+
+  #sobrenos {
+    margin-right: 50px;
+  }
+
+  #redes {
+    margin-left: 60px;
+  }
+
+  #contatosw {
+    margin-left: 60px;
+  }
+
+  #cursosw {
+    margin-left: 60px;
+  }
+}
+
+
+@media (min-width: 741px) and (max-width: 815px) {
+
+  .tp1 {
+    font-size: 25px;
+
+  }
+
+  .vp1 {
+    font-size: 25px;
+  }
+
+  .tp2 {
+    font-size: 25px;
+
+  }
+
+  .vp2 {
+    font-size: 25px;
+  }
+}

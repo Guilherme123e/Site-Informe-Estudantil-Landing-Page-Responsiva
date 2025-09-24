@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gagalin&display=swap');
+
+
+
+
+
+
+
+/*MENU DE NAVEGAÇÃO - ABA - MEUS CERTIFICADOS*/
+
+
+
+
+
+
+
+
+/*BOTÃO MEUS CERTIFICADOS NO MENU DE NAVEGAÇÃO*/
+.certificados {
+  border-top: 5px solid black;
+}
+
+/*TEXTO PRINCIPAL VOCÊ NÃO POSSUI NENHUM CERTIFICADO*/
+.cert1 {
+  position: absolute;
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+  font-size: clamp(1.2rem, 4vw, 3rem);
+  left: 50px;
+  top: 500px;
+}

@@ -1,0 +1,824 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gagalin&display=swap');
+
+
+
+
+
+
+
+/*MENU DE NAVEGAÇÃO - ABA - CONFIGURAÇÕES*/
+
+
+
+
+
+
+
+
+/*CONTAINER DA ABA*/
+.painel {
+  height: 100%;
+  margin-top: 40px;
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+  justify-content: top;
+  align-items: center;
+  border-radius: 0px;
+}
+
+
+/*BOTÃO CONFIGURAÇÕES NO MENU DE NAVEGAÇÃO*/
+.conf {
+  border-top: 5px solid black;
+}
+
+
+
+
+/*TITULO: PERFIL/CONTA*/
+.tit1 {
+  margin-top: 50px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+  font-size: 25px;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+
+
+/*CONTAINER DE PERFIL/CONTA*/
+.perfil {
+  height: 100%;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+/*FORMS DADOS DO USUARIO*/
+.f {
+  margin-top: 20px;
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+  font-size: 15px;
+  width: 100%;
+  height: 100%;
+}
+
+/*LABEL DOS CAMPOS DE PREENCHIMENTO DOS DADOS DO USUARIO*/
+.n1,
+.cp1,
+.r1,
+.em1,
+.e1,
+.ttt1,
+.u1,
+.d1,
+.g1 {
+  height: 20px;
+  border: none;
+  border-bottom: 2px solid black;
+  font-size: 15px;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+
+/*INPUT DOS CAMPOS DE PREENCHIMENTO DOS DADOS DO USUARIO*/
+.n2,
+.cp2,
+.r2,
+.em2,
+.e2,
+.ttt2,
+.u2,
+.d2,
+.g2 {
+  height: 20px;
+  margin-bottom: 50px;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid black;
+  text-decoration: none;
+  font-family: monospace;
+  font-size: 12px;
+  text-transform: uppercase;
+  background-color: rgb(238, 235, 235);
+  margin-top: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.g2 {
+  height: 28px;
+}
+
+/*CONTAINER DOS BOTÕES ALTERAR E DESFAZER ALTERAÇÕES*/
+.bb {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+/*BOTÃO ALTERAR*/
+.bu1 {
+  background-color: white;
+  color: black;
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+  border-radius: 20px;
+  flex: 1;
+  margin-top: 50px;
+  height: 60px;
+  border: 2px solid black;
+  font-size: 15px;
+}
+
+/*BOTÃO DESFAZER ALTERAÇÕES*/
+.bu2 {
+  background-color: white;
+  color: black;
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+  border-radius: 20px;
+  margin-left: 5px;
+  flex: 1;
+  margin-top: 50px;
+  height: 60px;
+  border: 2px solid black;
+  font-size: 15px;
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*TITULO 2: PAGAMENTO/ASSINATURA*/
+.tit2 {
+  margin-top: 200px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+  font-size: 25px;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+/*CONTAINER DE PAGAMENTO/ASSINATURA*/
+.plan {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+
+/*CONTAINER PLANOS*/
+.cfplan {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+/*SEGUNDO CONTAINER PLANOS*/
+.fplan {
+  width: 500px;
+  height: 800px;
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+  font-size: 50px;
+  text-align: center;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-bottom-right-radius: 500px;
+  border-bottom-left-radius: 500px;
+}
+
+/*TEXTO VALOR DO PLANO*/
+.cvp1 {
+  margin-top: 250px;
+}
+
+/*CONTAINER DOS BOTÕES REFERENTE A PAGAMENTO E ASSINATURA*/
+.planops {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 100px;
+}
+
+/*SEGUNDO CONTAINER DOS BOTÕES REFERENTE A PAGAMENTO E ASSINATURA*/
+.btnsdiv {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  gap: 20px
+}
+
+
+/*BOTÕES REFERENTE A PAGAMENTO E ASSINATURA*/
+#o1,
+#o2,
+#o3,
+#o4,
+#o5,
+#o6 {
+  height: 100px;
+  text-transform: uppercase;
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+  background-color: white;
+  font-size: 20px;
+  border-radius: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*TITULO 3: SEGURANÇA/SENHA*/
+.tit3 {
+  margin-top: 200px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+  font-size: 25px;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+/*CONTAINER BOTÕES DE SEGURANÇA/SENHA*/
+.seg {
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+
+/*BOTÕES DE SEGURANÇA/SENHA*/
+
+/*BOTÃO ALTERAR MEU EMAIL*/
+.s0 {
+  width: 95%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+  font-size: 20px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 50px;
+  border: 2px solid black;
+  margin-top: 100px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/*BOTÃO ALTERAR MINHA SENHA*/
+.s1 {
+  width: 95%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+  font-size: 20px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 50px;
+  border: 2px solid black;
+  text-align: center;
+  text-decoration: none;
+}
+
+/*BOTÃO AUTENTICAÇÃO DE DOIS FATORES*/
+.s2 {
+  width: 95%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+  font-size: 20px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 50px;
+  border: 2px solid black;
+  text-align: center;
+  text-decoration: none;
+}
+
+/*BOTÃO SESSÕES ATIVAS*/
+.s3 {
+  width: 95%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+  font-size: 20px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 50px;
+  border: 2px solid black;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*TITULO 4: NOTIFICAÇÕES/PREFERENCIAS*/
+.tit4 {
+  margin-top: 200px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+  font-size: 25px;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+/*CONTAINER DOS BOTÕES DE NOTIFICAÇÕES/PREFERENCIAS*/
+.not {
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+/*BOTÃO PREFERENCIAS DE NOTIFICAÇÃO*/
+.not1 {
+  width: 95%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+  font-size: 20px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 50px;
+  border: 2px solid black;
+  margin-top: 100px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*TITULO 5: PRIVACIDADE*/
+.tit5 {
+  margin-top: 200px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+  font-size: 25px;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+/*CONTAINER DOS BOTÕES DE PRIVACIDADE*/
+.dad {
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+/*BOTÃO EXCLUIR MINHA CONTA*/
+.dad1 {
+  width: 95%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+  font-size: 20px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 50px;
+  border: 2px solid black;
+  margin-top: 100px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+/*BOTÃO BAIXAR DADOS PESSOAIS*/
+.dad2 {
+  width: 95%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+  font-size: 20px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 50px;
+  border: 2px solid black;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*TITULO 6: AJUDA/SUPORTE*/
+.tit6 {
+  margin-top: 200px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+  font-size: 25px;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+/*CONTAINER DOS BOTÕES DE AJUDA/SUPORTE*/
+.faq {
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+
+/*BOTÃO CHAT COM SUPORTE*/
+.faq1 {
+  width: 95%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+  font-size: 20px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 50px;
+  border: 2px solid black;
+  margin-top: 100px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+/*BOTÃO FAQ*/
+.faq2 {
+  width: 95%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+  font-size: 20px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 50px;
+  border: 2px solid black;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+/*TERMOS DE USO*/
+.faq4 {
+  width: 95%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+  font-size: 20px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 50px;
+  border: 2px solid black;
+  margin-bottom: 200px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+
+
+/*EFEITO HOVER EM TODOS BOTÕES DA ABA, ALTERAR COR AO PASSAR O MOUSE*/
+.bu1:hover,
+.bu2:hover,
+#o1:hover,
+#o2:hover,
+#o3:hover,
+#o4:hover,
+#o5:hover,
+#o6:hover,
+.s0:hover,
+.s1:hover,
+.s2:hover,
+.s3:hover,
+.not1:hover,
+.not2:hover,
+.dad1:hover,
+.dad2:hover,
+.faq1:hover,
+.faq2:hover,
+.faq3:hover,
+.faq4:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+
+
+
+
+/*CAIXA DE ALERTA*/
+.hidden {
+  display: none !important;
+}
+
+#custom-alert {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.alert-box {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 300px;
+  min-width: 300px;
+  box-shadow: 0 0 10px #000000aa;
+  display: flex;
+  flex-direction: column;
+  /* Empilhar os elementos na vertical */
+  gap: 10px;
+  /* Espaçamento entre os elementos */
+}
+
+#custom-alert #codigo-confirmacao {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  /* Espaçamento abaixo do input */
+  box-sizing: border-box;
+  background: white;
+}
+
+#custom-alert button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  cursor: pointer;
+  box-sizing: border-box;
+  background: white;
+}
+
+#custom-alert button:first-child,
+#custom-alert button:nth-child(2) {
+  color: rgb(0, 0, 0);
+  background: white;
+}
+
+#custom-alert button:last-child {
+  color: rgb(0, 0, 0);
+  background: white;
+}
+
+
+
+
+
+
+
+/*CAIXA DE ALERTA 2*/
+.hidden2 {
+  display: none !important;
+}
+
+#custom-alert2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.alert-box2 {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 300px;
+  min-width: 300px;
+  box-shadow: 0 0 10px #000000aa;
+  display: flex;
+  flex-direction: column;
+  /* Empilhar os elementos na vertical */
+  gap: 10px;
+  /* Espaçamento entre os elementos */
+}
+
+
+
+
+
+
+input:focus {
+  outline: none;
+  outline-color: black;
+  caret-color: transparent;
+}
+
+input {
+  background-color: rgb(238, 235, 235);
+}
+
+input:focus {
+  outline: none;
+  outline-color: black;
+  caret-color: transparent;
+}
+
+input {
+  background-color: rgb(238, 235, 235);
+  caret-color: transparent;
+  /* padrão caret transparente */
+}
+
+input:focus {
+  outline: none;
+  outline-color: black;
+  caret-color: transparent;
+}
+
+/* Modo edição */
+.edit-mode {
+  background-color: white !important;
+  caret-color: black !important;
+  /* caret preto no modo edição */
+}
+
+.edit-mode:focus {
+  outline: none !important;
+  caret-color: black !important;
+}

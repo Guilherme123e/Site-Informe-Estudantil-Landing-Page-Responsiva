@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gagalin&display=swap');
+
+
+
+
+
+
+
+/*REPONSIVIDADE*/
+
+
+
+
+
+
+
+
+@media (min-width: 0px) and (max-width: 427px) {
+  .senha {
+    margin-left: 10px;
+  }
+
+  .senha1 {
+
+    width: 170px;
+  }
+
+
+  .EMAIL {
+    margin-left: 10px;
+  }
+
+  .EMAIL1 {
+    width: 170px;
+  }
+
+  .btnsentrar {
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 200px;
+    z-index: 5;
+    width: 280px;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+  }
+
+
+
+  .logo {
+    min-height: 200px;
+    min-width: 250px;
+    margin-top: 60px;
+  }
+
+
+}
+
+
+@media (max-width: 1000px) {
+
+  body {
+    background-color: white;
+  }
+
+  .container {
+    box-shadow: none;
+  }
+
+
+  .i {
+    display: flex;
+  }
+
+  .btninicio {
+    display: flex;
+  }
+
+
+  .i2 {
+    display: none;
+  }
+
+  .btninicio2 {
+    display: none;
+  }
+
+
+
+}

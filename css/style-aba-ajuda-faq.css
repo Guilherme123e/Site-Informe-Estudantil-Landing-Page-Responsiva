@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gagalin&display=swap');
+
+
+
+
+
+
+
+/*ESTILO DA ABA FAQ*/
+
+
+
+
+
+
+
+
+/*CONTAINER DA ABA E CORPO*/
+.faq-container {
+  max-width: 800px;
+  width: 100%;
+  padding: 20px;
+  background-color: #f9f9f9;
+  /* Cor de fundo mais clara */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  background-color: #fff;
+  /* Fundo branco */
+  color: #000;
+  /* Texto preto */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 16px;
+  line-height: 1.6;
+  flex-direction: column;
+}
+
+
+
+
+
+/*CONTAINER DO BOTAO VOLTAR*/
+.tituloca {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 110px;
+  width: 95%;
+  font-size: 25px;
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+}
+
+/*IMAGEM E BOTAO VOLTAR*/
+.ini {
+  background-image: url('./imagens/voltar.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100px;
+  width: 100px;
+}
+
+
+
+
+
+
+
+/* ESTILIZAÇÃO DO FAQ*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+
+
+
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #000;
+}
+
+.faq-item {
+  margin-bottom: 15px;
+}
+
+.question {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  /* Texto preto */
+  cursor: pointer;
+  padding: 10px;
+  background-color: #e0e0e0;
+  /* Fundo cinza claro para as perguntas */
+  border-radius: 5px;
+  margin-bottom: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.answer {
+  font-size: 16px;
+  color: #333;
+  /* Cor de texto mais suave para a resposta */
+  padding: 10px 20px;
+  background-color: #f1f1f1;
+  /* Fundo levemente cinza para as respostas */
+  border-radius: 5px;
+  display: none;
+  /* Resposta oculta inicialmente */
+}
+
+.question:hover {
+  background-color: #ccc;
+  /* Efeito de hover no fundo das perguntas */
+}
+
+.faq-item.active .answer {
+  display: block;
+  /* Exibe a resposta quando a pergunta é clicada */
+}
+
+.faq-item.active .question {
+  background-color: #bbb;
+  /* Muda a cor de fundo da pergunta quando clicada */
+}

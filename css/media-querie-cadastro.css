@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gagalin&display=swap');
+
+
+
+
+
+
+
+/*REPONSIVIDADE*/
+
+
+
+
+
+
+
+
+@media (min-width: 586px) and (max-width: 1173px) {
+  .srerro {
+    font-size: 15px;
+  }
+}
+
+
+@media (min-width: 0px) and (max-width: 586px) {
+  .srerro {
+    font-size: 12px;
+  }
+}

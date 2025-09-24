@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gagalin&display=swap');
+
+
+
+
+
+
+
+/*ESTILO DA ABA ALTERAR EMAIL ETAPA 1*/
+
+
+
+
+
+
+
+
+/*CONTAINER DA ABA*/
+.containerseg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-transform: uppercase;
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+/*CONTAINER DO BOTAO VOLTAR E IMAGEM ILUSTRATIVA DA ABA*/
+.tituloca {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 110px;
+  width: 95%;
+  font-size: 25px;
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+  margin-top: 60px;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+/*IMAGEM ILUSTRATIVA DA ABA*/
+.titca {
+  background-image: url('./imagens/seg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 230px;
+  width: 250px;
+  margin-top: 10px;
+  margin-top: 50px;
+}
+
+/*IMAGEM E BOTAO VOLTAR*/
+.ini {
+  background-image: url('./imagens/voltar.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 150px;
+  width: 150px;
+  margin-top: 10px;
+}
+
+
+
+
+/*CONTAINER - CONTEUDO PRINCIPAL DA PAGINA*/
+.f2 {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 400px;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+/*SEGUNDO CONTAINER - CONTEUDO PRINCIPAL DA PAGINA*/
+.f22 {
+  width: 95%;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  height: 400px;
+  flex-direction: column;
+}
+
+
+
+
+/*CONTAINER DO TITULO - CONTEUDO PRINCIPAL DA PAGINA*/
+.ct2f {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*TITULO - CONTEUDO PRINCIPAL DA PAGINA*/
+.t2f {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 25px;
+}
+
+
+/*LABEL-EMAIL*/
+#confemail {
+  margin-top: 20px;
+}
+
+
+/*BOTÃO - SIMULAR EMAIL VALIDO*/
+#btnconfmail {
+  text-transform: uppercase;
+  width: 250px;
+  margin-top: 110px;
+  background-color: white;
+  border-radius: 20px;
+  color: black;
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+}
+
+
+
+
+/*CONTAINER- BOTAO PROSSEGUIR*/
+.bb {
+  display: flex;
+  justify-content: right;
+  width: 95%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+
+/*IMAGEM E BOTAO PROSSEGUIR*/
+.bu {
+  background-image: url('./imagens/enviar.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 80px;
+  width: 80px;
+  border: none;
+  background-color: white;
+  padding-bottom: 50px;
+  cursor: pointer;
+  margin-top: 100px;
+}
+
+
+
+
+
+
+/*ESTILIZAÇÃO CAIXA DE ALERTA*/
+.hidden {
+  display: none !important;
+}
+
+#custom-alert {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.alert-box {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 300px;
+  min-width: 300px;
+  box-shadow: 0 0 10px #000000aa;
+  display: flex;
+  flex-direction: column;
+  /* Empilhar os elementos na vertical */
+  gap: 10px;
+  /* Espaçamento entre os elementos */
+}
+
+#custom-alert #codigo-confirmacao {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  /* Espaçamento abaixo do input */
+  box-sizing: border-box;
+  background: white;
+}
+
+#custom-alert button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  cursor: pointer;
+  box-sizing: border-box;
+  background: white;
+}
+
+#custom-alert button:first-child,
+#custom-alert button:nth-child(2) {
+  color: rgb(0, 0, 0);
+  background: white;
+}
+
+#custom-alert button:last-child {
+  color: rgb(0, 0, 0);
+  background: white;
+}

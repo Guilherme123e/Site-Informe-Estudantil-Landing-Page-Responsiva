@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gagalin&display=swap');
+
+
+
+
+
+
+
+/*MENU DE NAVEGAÇÃO - ABA - CURSOS*/
+
+
+
+
+
+
+
+
+/*CONTAINER DA ABA*/
+.containerc {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*BOTÃO CURSOS NO MENU DE NAVEGAÇÃO*/
+.cursos {
+  border-top: 5px solid rgb(0, 0, 0);
+}
+
+/*CONTAINER DOS CURSOS*/
+.mcursos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+  gap: 25px;
+  margin-top: 50px;
+}
+
+
+
+
+
+
+
+/*CURSO PYTHON*/
+
+/*CONTAINER DO CURSO*/
+.c01 {
+  height: 390px;
+  width: 890px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
+  background-color: rgb(255, 255, 255);
+}
+
+/*CONTAINER DA IMAGEM DE ILUSTRAÇÃO DO CURSO*/
+.c1 {
+  width: 300px;
+  height: 300px;
+  background-image: url('./imagens/python.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-left: 20px;
+}
+
+/*TITULO DO CURSO*/
+.t1 {
+  color: black;
+  text-decoration: none;
+  position: absolute;
+  font-size: 70px;
+  margin-left: 390px;
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+  top: 40px;
+}
+
+/*TEXTO DE DESCRIÇÃO DO CURSO*/
+.tt1 {
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  margin-left: 400px;
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+  font-size: 13px;
+  margin-top: 80px;
+  margin-right: 50px;
+}
+
+/*BOTÃO PRINCIPAL - SABER MAIS*/
+.i1 {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  border: solid 2px black;
+  padding: 20px;
+  width: 390px;
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 400px;
+  margin-bottom: 40px;
+  height: 0PX;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+}
+
+/*BOTÃO PRINCIPAL - EM PROGRESSO*/
+.prog {
+  width: 45px;
+  height: 45px;
+  background-image: url('./imagens/progresso.png');
+  position: absolute;
+  background-size: cover;
+  background-position: center center;
+  right: 20px;
+  top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*CURSO RUBY*/
+
+/*CONTAINER DO CURSO*/
+.c02 {
+  height: 390px;
+  min-width: 890px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
+}
+
+/*CONTAINER DA IMAGEM DE ILUSTRAÇÃO DO CURSO*/
+.c2 {
+  width: 300px;
+  height: 300px;
+  background-image: url('./imagens/ruby.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-left: 20px;
+}
+
+/*TITULO DO CURSO*/
+.t2 {
+  color: black;
+  text-decoration: none;
+  position: absolute;
+  font-size: 70px;
+  margin-left: 390px;
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+  top: 40px;
+}
+
+/*TEXTO DE DESCRIÇÃO DO CURSO*/
+.tt2 {
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  margin-left: 400px;
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+  font-size: 13px;
+  margin-top: 80px;
+  margin-right: 50px;
+}
+
+/*BOTÃO PRINCIPAL - SABER MAIS*/
+.i2 {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  border: solid 2px black;
+  padding: 20px;
+  width: 390px;
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 400px;
+  margin-bottom: 40px;
+  height: 0PX;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+/*CURSO JAVA*/
+
+/*CONTAINER DO CURSO*/
+.c03 {
+  height: 390px;
+  min-width: 890px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
+}
+
+/*CONTAINER DA IMAGEM DE ILUSTRAÇÃO DO CURSO*/
+.c3 {
+  width: 300px;
+  height: 300px;
+  background-image: url('./imagens/java.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-left: 20px;
+}
+
+/*TITULO DO CURSO*/
+.t3 {
+  color: black;
+  text-decoration: none;
+  position: absolute;
+  font-size: 70px;
+  margin-left: 390px;
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+  top: 40px;
+}
+
+/*TEXTO DE DESCRIÇÃO DO CURSO*/
+.tt3 {
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  margin-left: 400px;
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+  font-size: 13px;
+  margin-top: 80px;
+  margin-right: 50px;
+}
+
+/*BOTÃO PRINCIPAL - SABER MAIS*/
+.i3 {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  border: solid 2px black;
+  padding: 20px;
+  width: 390px;
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 400px;
+  margin-bottom: 40px;
+  height: 0PX;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*CURSO JAVA*/
+
+/*CONTAINER DO CURSO*/
+.c04 {
+  height: 390px;
+  min-width: 890px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
+}
+
+/*CONTAINER DA IMAGEM DE ILUSTRAÇÃO DO CURSO*/
+.c4 {
+  width: 300px;
+  height: 300px;
+  background-image: url('./imagens/c++.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-left: 20px;
+}
+
+/*TITULO DO CURSO*/
+.t4 {
+  color: black;
+  text-decoration: none;
+  position: absolute;
+  font-size: 70px;
+  margin-left: 390px;
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+  top: 40px;
+}
+
+/*TEXTO DE DESCRIÇÃO DO CURSO*/
+.tt4 {
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  margin-left: 400px;
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+  font-size: 13px;
+  margin-top: 80px;
+  margin-right: 50px;
+}
+
+/*BOTÃO PRINCIPAL - SABER MAIS*/
+.i4 {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  border: solid 2px black;
+  padding: 20px;
+  width: 390px;
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 400px;
+  margin-bottom: 40px;
+  height: 0PX;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+}

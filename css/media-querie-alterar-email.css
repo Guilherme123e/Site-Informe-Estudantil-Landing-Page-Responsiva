@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gagalin&display=swap');
+
+
+
+
+
+
+
+/*REPONSIVIDADE*/
+
+
+
+
+
+
+
+
+@media (min-width: 0px) and (max-width: 720px) {
+
+  .titca {
+    height: 150px;
+    width: 170px;
+  }
+
+  .ini {
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+  }
+
+
+  .t2f {
+    font-size: 4vw;
+  }
+
+  #ff2 {
+    font-size: 13px;
+  }
+
+  #confemail {
+    font-size: 13px;
+  }
+
+  #btnconfmail {
+    margin-top: 50px;
+  }
+
+  #btnconfmail2 {
+    margin-top: 50px;
+  }
+
+  #btnconfmail {
+    font-size: 11px;
+    height: 30px;
+  }
+
+  #btnconfmail2 {
+    font-size: 11px;
+    height: 30px;
+  }
+}
+
+#btnconfmail:hover {
+  background-color: black;
+  color: white;
+}
+
+#btnconfmail2:hover {
+  background-color: black;
+  color: white;
+}
+
+
+#btnconfmail {
+  cursor: pointer;
+}
+
+#btnconfmail2 {
+  cursor: pointer;
+}

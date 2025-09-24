@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gagalin&display=swap');
+
+
+
+
+
+
+
+/*REPONSIVIDADE*/
+
+
+
+
+
+
+
+
+@media (min-width: 0px) and (max-width: 710px) {
+
+  .titca {
+    height: 150px;
+    width: 170px;
+  }
+
+  .ini {
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+  }
+
+  #btnconfmail {
+    font-size: 11px;
+  }
+
+  #btnconfmail2 {
+    font-size: 11px;
+  }
+
+
+  #ff2 {
+    font-size: 13px;
+  }
+
+  #confemail {
+    font-size: 13px;
+  }
+
+  #conftel {
+    font-size: 13px;
+  }
+
+  #btnconfmail {
+    margin-top: 50px;
+  }
+
+  #btnconfmail2 {
+    margin-top: 50px;
+  }
+}
+
+
+@media (min-width: 0px) and (max-width: 900px) {
+
+
+  .t2f {
+
+    font-size: 20px
+  }
+
+  #tntf {
+    font-size: 15px
+  }
+
+
+  #antf1 {
+    font-size: 13px;
+  }
+
+  #antf2 {
+    font-size: 13px;
+  }
+
+
+  #antf3 {
+    font-size: 13px;
+  }
+
+  #antf4 {
+    font-size: 13px;
+  }
+
+}
+
+@media (min-width: 0px) and (max-width: 740px) {
+  #ntf1 {
+    margin-top: 40px;
+  }
+
+  #ntf2 {
+    margin-top: 20px;
+  }
+
+
+  #ntf3 {
+    margin-top: 20px;
+  }
+
+  #ntf4 {
+    margin-top: 20px;
+  }
+
+}
+
+#btnconfmail:hover {
+  background-color: black;
+  color: white;
+}
+
+#btnconfmail2:hover {
+  background-color: black;
+  color: white;
+}
+
+
+#btnconfmail {
+  cursor: pointer;
+}
+
+#btnconfmail2 {
+  cursor: pointer;
+}
+
+
+@media (min-width: 0px) and (max-width: 1070px) {}

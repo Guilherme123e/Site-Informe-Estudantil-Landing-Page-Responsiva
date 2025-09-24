@@ -1,0 +1,693 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gagalin&display=swap');
+
+
+
+
+
+
+
+/*REPONSIVIDADE*/
+
+
+
+
+
+
+
+
+@media (min-width: 0px) and (max-width: 1521px) {
+
+
+  .mcursos {
+    width: 95%;
+    height: 100%;
+  }
+
+
+  .c01 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+
+  .tll1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 15vw;
+    width: 100%;
+
+  }
+
+  .c1 {
+    flex: 1;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    background-image: none;
+    height: 20vw;
+    margin-left: 20px;
+    padding-top: 40px;
+  }
+
+  .c1i {
+    width: 15vw;
+    height: 15vw;
+    background-image: url('./imagens/python.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+
+  .t1 {
+    display: flex;
+    align-items: top;
+    justify-content: left;
+    flex: 2;
+    font-size: clamp(0.7rem, 8vw, 8rem);
+    height: 20vw;
+    position: static;
+    margin-left: 0px;
+    padding-top: 55px;
+  }
+
+
+
+  .tt1 {
+    margin-right: 50px;
+    margin-left: 50px;
+    position: static;
+    margin-bottom: 0px;
+    font-size: clamp(0.7rem, 1vw, 0.9rem);
+  }
+
+  .i1 {
+    margin-left: 0px;
+    width: 80%;
+    position: static;
+    margin-top: 50px;
+  }
+
+  .cinfo1 {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    width: 100%;
+    margin-left: 98px;
+  }
+
+  .info1 {
+    position: static;
+    margin-top: 50px;
+    margin-bottom: 2vw;
+    font-size: clamp(0.7rem, 1vw, 0.9rem);
+    margin-left: 0px;
+    width: 80%;
+  }
+
+  #b1 {
+    margin-left: 0px;
+    width: 80%;
+    font-size: clamp(0.7rem, 1vw, 0.95rem);
+    min-height: 50px;
+    position: static;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    height: 100%;
+    height: 50px;
+    border-radius: 10px;
+  }
+
+
+  #aa1 {
+    margin-left: 0px;
+    width: 80%;
+    text-align: center;
+    font-size: clamp(0.7rem, 1vw, 0.95rem);
+    position: static;
+    margin-top: 50px;
+    height: 50px;
+    border-radius: 10px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .c02 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+
+  .tll2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 15vw;
+    width: 100%;
+
+  }
+
+  .c2 {
+    flex: 1;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    background-image: none;
+    height: 20vw;
+    margin-left: 20px;
+    padding-top: 40px;
+  }
+
+  .c2i {
+    width: 15vw;
+    height: 15vw;
+    background-image: url('./imagens/ruby.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+
+  .t2 {
+    display: flex;
+    align-items: top;
+    justify-content: left;
+    flex: 2;
+    font-size: clamp(0.7rem, 8vw, 8rem);
+    height: 20vw;
+    position: static;
+    margin-left: 0px;
+    padding-top: 55px;
+  }
+
+
+
+  .tt2 {
+    margin-right: 50px;
+    margin-left: 50px;
+    position: static;
+    margin-bottom: 0px;
+    font-size: clamp(0.7rem, 1vw, 0.9rem);
+  }
+
+  .i2 {
+    margin-left: 0px;
+    width: 80%;
+    position: static;
+    margin-top: 50px;
+  }
+
+  .cinfo2 {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    width: 100%;
+    margin-left: 98px;
+  }
+
+  .info2 {
+    position: static;
+    margin-top: 50px;
+    margin-bottom: 2vw;
+    font-size: clamp(0.7rem, 1vw, 0.9rem);
+    margin-left: 0px;
+    width: 80%;
+  }
+
+  #b2 {
+    margin-left: 0px;
+    width: 80%;
+    font-size: clamp(0.7rem, 1vw, 0.95rem);
+    min-height: 50px;
+    position: static;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    height: 100%;
+    height: 50px;
+    border-radius: 10px;
+  }
+
+
+  #aa2 {
+    margin-left: 0px;
+    width: 80%;
+    text-align: center;
+    font-size: clamp(0.7rem, 1vw, 0.95rem);
+    position: static;
+    margin-top: 50px;
+    height: 50px;
+    border-radius: 10px;
+  }
+
+
+
+
+
+
+
+
+
+  .c03 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+
+  .tll3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 15vw;
+    width: 100%;
+
+  }
+
+  .c3 {
+    flex: 1;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    background-image: none;
+    height: 20vw;
+    margin-left: 20px;
+    padding-top: 40px;
+  }
+
+  .c3i {
+    width: 15vw;
+    height: 15vw;
+    background-image: url('./imagens/java.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+
+  .t3 {
+    display: flex;
+    align-items: top;
+    justify-content: left;
+    flex: 2;
+    font-size: clamp(0.7rem, 8vw, 8rem);
+    height: 20vw;
+    position: static;
+    margin-left: 0px;
+    padding-top: 55px;
+  }
+
+
+
+  .tt3 {
+    margin-right: 50px;
+    margin-left: 50px;
+    position: static;
+    margin-bottom: 0px;
+    font-size: clamp(0.7rem, 1vw, 0.9rem);
+  }
+
+  .i3 {
+    margin-left: 0px;
+    width: 80%;
+    position: static;
+    margin-top: 50px;
+  }
+
+  .cinfo3 {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    width: 100%;
+    margin-left: 98px;
+  }
+
+  .info3 {
+    position: static;
+    margin-top: 50px;
+    margin-bottom: 2vw;
+    font-size: clamp(0.7rem, 1vw, 0.9rem);
+    margin-left: 0px;
+    width: 80%;
+  }
+
+  #b3 {
+    margin-left: 0px;
+    width: 80%;
+    font-size: clamp(0.7rem, 1vw, 0.95rem);
+    min-height: 50px;
+    position: static;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    height: 100%;
+    height: 50px;
+    border-radius: 10px;
+  }
+
+
+  #aa3 {
+    margin-left: 0px;
+    width: 80%;
+    text-align: center;
+    font-size: clamp(0.7rem, 1vw, 0.95rem);
+    position: static;
+    margin-top: 50px;
+    height: 50px;
+    border-radius: 10px;
+  }
+
+
+
+
+  .c04 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+
+  .tll4 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 15vw;
+    width: 100%;
+
+  }
+
+  .c4 {
+    flex: 1;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    background-image: none;
+    height: 20vw;
+    margin-left: 20px;
+    padding-top: 40px;
+  }
+
+  .c4i {
+    width: 15vw;
+    height: 15vw;
+    background-image: url('./imagens/c++.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+
+  .t4 {
+    display: flex;
+    align-items: top;
+    justify-content: left;
+    flex: 2;
+    font-size: clamp(0.7rem, 8vw, 8rem);
+    height: 20vw;
+    position: static;
+    margin-left: 0px;
+    padding-top: 55px;
+  }
+
+
+
+  .tt4 {
+    margin-right: 50px;
+    margin-left: 50px;
+    position: static;
+    margin-bottom: 0px;
+    font-size: clamp(0.7rem, 1vw, 0.9rem);
+  }
+
+  .i4 {
+    margin-left: 0px;
+    width: 80%;
+    position: static;
+    margin-top: 50px;
+  }
+
+  .cinfo4 {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    width: 100%;
+    margin-left: 98px;
+  }
+
+  .info4 {
+    position: static;
+    margin-top: 50px;
+    margin-bottom: 2vw;
+    font-size: clamp(0.7rem, 1vw, 0.9rem);
+    margin-left: 0px;
+    width: 80%;
+  }
+
+  #b4 {
+    margin-left: 0px;
+    width: 80%;
+    font-size: clamp(0.7rem, 1vw, 0.95rem);
+    min-height: 50px;
+    position: static;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    height: 100%;
+    height: 50px;
+    border-radius: 10px;
+  }
+
+
+  #aa4 {
+    margin-left: 0px;
+    width: 80%;
+    text-align: center;
+    font-size: clamp(0.7rem, 1vw, 0.95rem);
+    position: static;
+    margin-top: 50px;
+    height: 50px;
+    border-radius: 10px;
+  }
+
+
+
+
+
+
+}
+
+
+
+
+
+.sair2 {
+  display: none;
+}
+
+.conf2 {
+  display: none;
+}
+
+@media (min-width: 0px) and (max-width: 955px) {
+
+  .tit1 {
+    font-size: 16px;
+  }
+
+  .tit2 {
+    font-size: 16px;
+  }
+
+  .tit3 {
+    font-size: 16px;
+  }
+
+  .tit4 {
+    font-size: 16px;
+  }
+
+  .tit5 {
+    font-size: 16px;
+  }
+
+  .tit6 {
+    font-size: 16px;
+  }
+
+  .bu1,
+  .bu2,
+  #o1,
+  #o2,
+  #o3,
+  #o4,
+  #o5,
+  #o6,
+  .s0,
+  .s1,
+  .s2,
+  .s3,
+  .not1,
+  .not2,
+  .dad1,
+  .dad2,
+  .faq1,
+  .faq2,
+  .faq3,
+  .faq4 {
+    font-size: 13px;
+    height: 40px;
+  }
+
+
+  .plan {
+    flex-direction: column;
+  }
+
+  .fplan {
+    width: 400px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    height: 600px;
+  }
+
+  .menu {
+    flex-direction: row;
+    width: 95%;
+    margin-left: 0px;
+    margin-right: 0px;
+    gap: 8px;
+  }
+
+  .meus {
+    font-size: clamp(0.7rem, 1.6vw, 5rem);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+
+  }
+
+
+  .cursos {
+    font-size: clamp(0.7rem, 1.6vw, 5rem);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2)
+  }
+
+
+  .certificados {
+    font-size: clamp(0.7rem, 1.6vw, 5rem);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+
+
+  .conf {
+    font-size: clamp(0.6rem, 1.6vw, 5rem);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2)
+  }
+
+
+  .sair {
+    display: none;
+  }
+
+  .conf {
+    display: none;
+  }
+
+  .sair2 {
+    display: flex;
+    background-image: url('./imagens/sair.png');
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+  }
+
+  .conf2 {
+    display: flex;
+    background-image: url('./imagens/conf.png');
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 30px;
+    right: 70px;
+  }
+
+  .b1 {
+    height: 65vw;
+  }
+
+  .cc {
+    font-size: clamp(0.6rem, 7vw, 7rem);
+  }
+
+
+
+  .l {
+    height: 180px;
+  }
+
+
+  .ll {
+    position: absolute;
+    margin-left: 10px;
+  }
+
+  .nt {
+    margin-left: 120px;
+  }
+
+  .bu1 {
+    font-size: 11px;
+  }
+
+  .bu2 {
+    font-size: 11px;
+  }
+
+
+  #ctp1 {
+    font-size: 30px;
+  }
+
+  #cvp1 {
+    font-size: 30px;
+  }
+}
+
+
+@media (min-width: 0px) and (max-width: 313px) {
+
+  .ll {
+    position: absolute;
+    margin-left: 00px;
+  }
+
+  .nt {
+    margin-left: 110px;
+  }
+}

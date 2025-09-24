@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gagalin&display=swap');
+
+
+
+
+
+
+
+/*MENU DE NAVEGAÇÃO - ABA - TELA INICIO LOGADO*/
+
+
+
+
+
+
+
+
+/*CONTAINER DA ABA*/
+.containerl {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*CONTAINER DA LOGO E NOME DO SITE*/
+.l {
+  height: 230px;
+  border-top: 5px solid rgb(95, 95, 95);
+  border-radius: 50px;
+}
+
+/*NOME DO SITE*/
+.nt {
+  text-decoration: none;
+  color: black;
+  width: 50px;
+}
+
+/*CONTAINER MENU DE NAVEGAÇÃO*/
+.menu {
+  width: 95%;
+  height: 50px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}
+
+/*BOTÃO CURSOS DO MENU DE NAVEGAÇÃO*/
+.cursos {
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+}
+
+/*BOTÃO SAIR DO MENU DE NAVEGAÇÃO*/
+.sair {
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+}
+
+
+/*BOTÃO MEUS CERTIFICADOS DO MENU DE NAVEGAÇÃO*/
+.meus {
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+
+/*BOTÃO CONFIGURAÇÕES DO MENU DE NAVEGAÇÃO*/
+.conf {
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+
+
+}
+
+
+/*BOTÃO MEUS CERTIFICADOS DO MENU DE NAVEGAÇÃO*/
+.certificados {
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}

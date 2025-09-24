@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gagalin&display=swap');
+
+
+
+
+
+
+
+/*ESTILO DA ABA TERMOS DE USO LOGADO*/
+
+
+
+
+
+
+
+
+/*CORPO DA ABA*/
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  padding: 40px;
+  background-color: #ffffff;
+  color: #333;
+}
+
+
+
+
+
+/*CONTAINER DO BOTAO VOLTAR E IMAGEM ILUSTRATIVA DA ABA*/
+.tituloca {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 110px;
+  width: 103%;
+  font-size: 25px;
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+/*IMAGEM ILUSTRATIVA DA ABA*/
+.titca {
+  background-image: url('./imagens/termos.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 250px;
+  width: 300px;
+  margin-top: 10px;
+}
+
+/*IMAGEM E BOTAO VOLTAR*/
+.ini {
+  background-image: url('./imagens/voltar.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 150px;
+  width: 150px;
+  margin-top: 10px;
+}
+
+
+
+/*ESTILIZAÇÃO DOS TERMOS DE USO*/
+h1,
+h2 {
+  color: #000000;
+}
+
+h1 {
+  border-bottom: 2px solid #000000;
+  padding-bottom: 10px;
+}
+
+h2 {
+  margin-top: 40px;
+  font-size: 15px;
+}
+
+p,
+li {
+  margin-bottom: 12px;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+a {
+  color: #000000;
+}
+
+.checkbox-area {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+.checkbox-area input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #004d99;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+footer {
+  margin-top: 60px;
+  font-size: 0.9em;
+  color: #777;
+}

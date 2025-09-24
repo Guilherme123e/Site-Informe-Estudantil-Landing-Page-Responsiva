@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gagalin&display=swap');
+
+
+
+
+
+
+
+/*MENU DE NAVEGAÇÃO - ABA - LOGIN*/
+
+
+
+
+
+
+
+
+/*CONTAINER DA ABA*/
+body {
+  height: 98vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(240, 238, 238);
+}
+
+
+.container {
+  width: 500px;
+  height: 100%;
+  background-color: white;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
+}
+
+
+
+/*FORMS LOGIN E SENHA*/
+.lofo {
+  z-index: 2;
+}
+
+
+/*LOGO*/
+.logo {
+  background-image: url('./imagens/logo.png');
+  background-size: cover;
+  background-position: center center;
+  min-height: 190px;
+  min-width: 300px;
+  margin-bottom: 50px;
+  z-index: 2;
+}
+
+
+
+/*EMAIL*/
+
+/*LABEL EMAIL*/
+.EMAIL {
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+}
+
+/*INPUT EMAIL*/
+.EMAIL1 {
+  border: none;
+  border-bottom: 2px solid;
+  width: 300px;
+  font-size: 14px;
+}
+
+
+
+
+/*SENHA*/
+
+/*LABEL SENHA*/
+.senha {
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+}
+
+/*INPUT SENHA*/
+.senha1 {
+  border: none;
+  border-bottom: 2px solid;
+  width: 300px;
+  font-size: 14px;
+}
+
+
+
+
+
+/*CONTAINER DO BOTÕES ENTRAR E SIMULAR LOGIN*/
+.btnsentrar {
+  font-family: "Rubik Mono One", monospace;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 200px;
+  z-index: 5;
+  width: 400px;
+  display: flex;
+  align-items: right;
+  justify-content: right;
+}
+
+/*BOTÃO ENTRAR*/
+#entrar {
+  font-family: "Rubik Mono One", monospace;
+  font-weight: 400;
+  font-style: normal;
+  background-color: white;
+  z-index: 5;
+  border-radius: 10px;
+  order: 2;
+}
+
+/*BOTÃO SIMULAR LOGIN*/
+#entrar2 {
+  font-family: "Rubik Mono One", monospace;
+  font-weight: 400;
+  font-style: normal;
+  background-color: white;
+  z-index: 5;
+  border-radius: 10px;
+  margin-right: 10PX;
+}
+
+
+/*BOTÃO: ESQUECEU A SENHA?*/
+.esqueci {
+  margin-top: 600px;
+  margin-bottom: 130px;
+  color: black;
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+  position: absolute;
+  order: 1;
+  z-index: 2;
+}
+
+
+/*CONTAINER DO BOTÃO INICIO 2*/
+.i2 {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+/*BOTAO INICIO 2*/
+.btninicio2 {
+  background-image: url('./imagens/voltar.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 50px;
+  width: 50px;
+  margin-top: 10px;
+  margin-left: 10px;
+  z-index: 5;
+}
+
+
+/*MENSAGEM DE ERRO NO LOGIN*/
+.avisologin {
+  margin-top: 50px;
+}
+
+
+/*CONTAINER DO BOTÃO INICIO*/
+.i {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: none;
+}
+
+/*BOTAO INICIO*/
+.btninicio {
+  background-image: url('./imagens/voltar.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 50px;
+  width: 50px;
+  margin-top: 10px;
+  margin-left: 10px;
+  z-index: 5;
+  display: none;
+}
+
+
+input:focus {
+  outline: none;
+}

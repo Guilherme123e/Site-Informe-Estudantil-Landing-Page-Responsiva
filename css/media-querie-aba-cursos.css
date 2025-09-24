@@ -1,0 +1,531 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gagalin&display=swap');
+
+
+
+
+
+
+
+/*REPONSIVIDADE*/
+
+
+
+
+
+
+
+
+.sair2 {
+  display: none;
+}
+
+.conf2 {
+  display: none;
+}
+
+
+@media (min-width: 0px) and (max-width: 955px) {
+
+
+  .meus1 {
+    top: 350px;
+    left: 25px;
+  }
+
+  .cert1 {
+    top: 350px;
+    left: 25px;
+  }
+
+  .mcursos {
+    flex-wrap: wrap;
+    width: 95%;
+  }
+
+
+  .prog {
+    width: 30px;
+    height: 30px;
+    right: 25px;
+    top: 20px;
+  }
+
+
+
+  .c01 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 480px;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    min-width: 350px;
+  }
+
+
+  .tll {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 15vw;
+    width: 100%;
+
+  }
+
+  .c1 {
+    flex: 1;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    background-image: none;
+    height: 20vw;
+    margin-left: 20px;
+    padding-top: 30px;
+  }
+
+  .c1i {
+    width: 100px;
+    height: 100px;
+    background-image: url('./imagens/python.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+
+  .t1 {
+    display: flex;
+    align-items: top;
+    justify-content: left;
+    flex: 2;
+    font-size: 35px;
+    height: 20vw;
+    position: static;
+    margin-left: 0px;
+    padding-top: 64px;
+  }
+
+
+
+  .tt1 {
+    margin-top: 160px;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 12px;
+  }
+
+  .i1 {
+    margin-top: 400px;
+    margin-left: 0px;
+    width: 70%;
+    font-size: 15px;
+  }
+
+  .p1 {
+    margin-left: 0px;
+  }
+
+
+
+
+
+
+
+
+
+
+  .c02 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 480px;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    min-width: 350px;
+  }
+
+
+  .tll {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 15vw;
+    width: 100%;
+
+  }
+
+  .c2 {
+    flex: 1;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    background-image: none;
+    height: 20vw;
+    margin-left: 30px;
+    padding-top: 30px;
+  }
+
+  .c2i {
+    width: 100px;
+    height: 100px;
+    background-image: url('./imagens/ruby.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+
+  .t2 {
+    display: flex;
+    align-items: top;
+    justify-content: left;
+    flex: 2;
+    font-size: 40px;
+    height: 20vw;
+    position: static;
+    margin-left: 0px;
+    padding-top: 55px;
+  }
+
+
+
+  .tt2 {
+    margin-top: 160px;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 12px;
+  }
+
+  .i2 {
+    margin-top: 400px;
+    margin-left: 0px;
+    width: 70%;
+    font-size: 15px;
+  }
+
+
+
+
+
+
+
+  .c03 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 480px;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    min-width: 350px;
+  }
+
+
+  .tll {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 15vw;
+    width: 100%;
+
+  }
+
+  .c3 {
+    flex: 1;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    background-image: none;
+    height: 20vw;
+    margin-left: 40px;
+    padding-top: 30px;
+  }
+
+  .c3i {
+    width: 100px;
+    height: 100px;
+    background-image: url('./imagens/java.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+
+  .t3 {
+    display: flex;
+    align-items: top;
+    justify-content: left;
+    flex: 2;
+    font-size: 40px;
+    height: 20vw;
+    position: static;
+    margin-left: 0px;
+    padding-top: 80px;
+  }
+
+
+
+  .tt3 {
+    margin-top: 160px;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 12px;
+  }
+
+  .i3 {
+    margin-top: 400px;
+    margin-left: 0px;
+    width: 70%;
+    font-size: 15px;
+  }
+
+
+
+
+
+
+  .c04 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 480px;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    min-width: 350px;
+  }
+
+
+  .tll {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 15vw;
+    width: 100%;
+
+  }
+
+  .c4 {
+    flex: 1;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    background-image: none;
+    height: 20vw;
+    margin-left: 40px;
+    padding-top: 40px;
+  }
+
+  .c4i {
+    width: 100px;
+    height: 100px;
+    background-image: url('./imagens/c++.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+
+  .t4 {
+    display: flex;
+    align-items: top;
+    justify-content: left;
+    flex: 2;
+    font-size: 40px;
+    height: 20vw;
+    position: static;
+    margin-left: 0px;
+    padding-top: 65px;
+  }
+
+
+
+  .tt4 {
+    margin-top: 160px;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 12px;
+  }
+
+  .i4 {
+    margin-top: 400px;
+    margin-left: 0px;
+    width: 70%;
+    font-size: 15px;
+  }
+
+
+
+
+
+
+  .menu {
+    flex-direction: row;
+    width: 95%;
+    margin-left: 0px;
+    margin-right: 0px;
+    gap: 8px;
+  }
+
+  .meus {
+    font-size: clamp(0.7rem, 1.6vw, 5rem);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+
+  }
+
+
+  .cursos {
+    font-size: clamp(0.7rem, 1.6vw, 5rem);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2)
+  }
+
+
+  .certificados {
+    font-size: clamp(0.7rem, 1.6vw, 5rem);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+
+
+  .conf {
+    font-size: clamp(0.6rem, 1.6vw, 5rem);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2)
+  }
+
+
+  .sair {
+    display: none;
+  }
+
+  .conf {
+    display: none;
+  }
+
+  .sair2 {
+    display: flex;
+    background-image: url('./imagens/sair.png');
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+  }
+
+  .conf2 {
+    display: flex;
+    background-image: url('./imagens/conf.png');
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 30px;
+    right: 70px;
+  }
+
+  .b1 {
+    height: 65vw;
+  }
+
+  .cc {
+    font-size: clamp(0.6rem, 7vw, 7rem);
+  }
+
+
+
+  .l {
+    height: 180px;
+  }
+
+
+  .ll {
+    position: absolute;
+    margin-left: 10px;
+  }
+
+  .nt {
+    margin-left: 120px;
+  }
+
+
+
+}
+
+
+@media (min-width: 0px) and (max-width: 313px) {
+
+  .ll {
+    position: absolute;
+    margin-left: 00px;
+  }
+
+  .nt {
+    margin-left: 110px;
+  }
+}
+
+
+@media (min-width: 550px) and (max-width: 796px) {
+  .c01 {
+    height: 410px;
+  }
+
+  .i1 {
+    margin-top: 320px;
+    width: 85%;
+  }
+
+  .t1 {
+    font-size: 55px;
+    padding-top: 45px;
+  }
+
+
+  .c02 {
+    height: 410px;
+  }
+
+  .i2 {
+    margin-top: 320px;
+    width: 85%;
+  }
+
+  .t2 {
+    font-size: 55px;
+  }
+
+
+  .c03 {
+    height: 410px;
+  }
+
+  .i3 {
+    margin-top: 320px;
+    width: 85%;
+  }
+
+
+  .t3 {
+    font-size: 55px;
+    padding-top: 60px;
+  }
+
+
+  .c04 {
+    height: 410px;
+  }
+
+  .i4 {
+    margin-top: 320px;
+    width: 85%;
+  }
+
+
+  .t4 {
+    font-size: 55px;
+  }
+}

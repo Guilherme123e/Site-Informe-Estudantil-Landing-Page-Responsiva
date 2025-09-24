@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gagalin&display=swap');
+
+
+
+
+
+
+
+/*ESTILO DA ABA CURSOS - PYTHON*/
+
+
+
+
+
+
+
+
+/*CONTAINER DA ABA*/
+.containerc {
+  height: 100%;
+}
+
+/*TERCEIRO CONTAINER DA ABA*/
+.c01 {
+  width: 95%;
+  min-height: 580PX;
+  min-width: 100px;
+}
+
+/*TITULO DO CURSO*/
+.t1 {
+  margin-bottom: 420px;
+  margin-left: 20.5vw;
+}
+
+/*TEXTO DESCRIÇÃO DO CURSO*/
+.tt1 {
+  margin-right: 500px;
+  margin-left: 21vw;
+  font-size: 0.8vw;
+  font-size: clamp(1rem, 0.5vw, 1rem);
+  margin-bottom: 110px;
+}
+
+/*CONTAINER DO TEXTO COM OS DADOS DO CURSO*/
+.cinfo1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-left: 98px;
+}
+
+/*DADOS DO CURSO*/
+.info1 {
+  font-size: 17px;
+  position: absolute;
+  margin-left: 47vw;
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+  margin-right: 3vw;
+}
+
+/*COTAINER IMAGEM DO CURSO*/
+.c1 {
+  width: 18vw;
+  height: 18vw;
+}
+
+/*BOTÃO INSCREVER-SE NO CUSO*/
+#b1 {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  border: solid 2px black;
+  padding: 20px;
+  position: absolute;
+  margin-top: 450px;
+  margin-left: 21vw;
+  margin-bottom: 40px;
+  height: 5px;
+  font-size: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+  width: 43vw;
+  background-color: white;
+  cursor: pointer;
+}
+
+
+/*BOTÃO COMEÇAR/CONTINUAR CURSO*/
+#aa1 {
+  text-decoration: none;
+  color: rgb(5, 10, 11);
+  border: solid 2px black;
+  padding: 20px;
+  position: absolute;
+  margin-top: 280px;
+  margin-left: 21vw;
+  margin-bottom: 0px;
+  height: 1px;
+  font-size: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+  width: 43vw;
+  background-color: white;
+  cursor: pointer;
+}
+
+
+.selecionado {
+  color: rgb(0, 0, 0);
+}

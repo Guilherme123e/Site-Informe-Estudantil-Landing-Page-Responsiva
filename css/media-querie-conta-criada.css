@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gagalin&display=swap');
+
+
+
+
+
+
+
+/*REPONSIVIDADE*/
+
+
+
+
+
+
+
+
+@media (min-width: 0px) and (max-width: 710px) {
+
+  .titca {
+    height: 150px;
+    width: 250px;
+  }
+
+  .ini {
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+  }
+
+  .t2f {
+    font-size: 15px;
+  }
+
+  .iniciop {
+    font-size: 11px;
+  }
+
+  .pagementop {
+    font-size: 11px;
+  }
+
+}

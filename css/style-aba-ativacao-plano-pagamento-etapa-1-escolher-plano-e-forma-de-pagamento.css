@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gagalin&display=swap');
+
+
+
+
+
+
+
+/*ESTILO DA ABA ATIVAÇÃO DO PLANO - ETAPA 1 - ESCOLHER PLANO E FORMA DE PAGAMENTO*/
+
+
+
+
+
+
+
+
+/*CONTAINER DA ABA*/
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerca {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 930px;
+  border-radius: 10px;
+}
+
+
+
+/*CONTAINER DO BOTAO VOLTAR E IMAGEM ILUSTRATIVA DA ABA*/
+.tituloca {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 110px;
+  width: 100%;
+  font-size: 25px;
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+  margin-top: 60px;
+}
+
+
+/*IMAGEM ILUSTRATIVA DA ABA*/
+.titca {
+  background-image: url('./imagens/p.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 260px;
+  width: 390px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+
+/*IMAGEM E BOTAO VOLTAR*/
+.ini {
+  background-image: url('./imagens/voltar.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 150px;
+  width: 150px;
+  margin-top: 10px;
+}
+
+
+/*CONTAINER TIPO DO PLANO*/
+.contc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 98%;
+}
+
+/*SEGUNDO CONTAINER TIPO DO PLANO*/
+
+.perfil {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  width: 100%;
+}
+
+
+/*FORMS TIPO DO PLANO*/
+.f {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  width: 100%;
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+  margin-top: 50px;
+}
+
+/*SELECT TIPO DO PLANO*/
+.pl {
+  height: 40px;
+  border: solid 2px black;
+  border-radius: 10px;
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+  padding-left: 10px;
+  font-size: 20px;
+  width: 100%;
+}
+
+/*CONTAINER TITULO: FORMA DE PAGAMENTO*/
+.cfp {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  width: 96.5%;
+}
+
+/*TITULO: FORMA DE PAGAMENTO*/
+.fp {
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+
+/*CONTAINER DAS FORMAS DE PAGAMENTO*/
+.formas {
+  width: 97%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  z-index: 10;
+}
+
+
+
+
+
+
+
+
+/*CONTAINER FORMA DE PAGAMENTO: PIX*/
+.pix {
+  flex: 1;
+  height: 410px;
+  cursor: pointer;
+  display: flex;
+  justify-content: top;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  min-width: 300px;
+}
+
+/*TITULO FORMA DE PAGAMENTO: PIX*/
+.tpix {
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+  font-size: 25px;
+}
+
+/*IMAGEM ILUSTRATIVA  - FORMA DE PAGAMENTO: PIX*/
+.qr1 {
+  background-image: url('./imagens/pix.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 300px;
+  width: 300px;
+}
+
+
+
+
+
+
+
+
+
+/*CONTAINER FORMA DE PAGAMENTO: BOLETO*/
+.boleto {
+  flex: 1;
+  height: 410px;
+  cursor: pointer;
+  display: flex;
+  justify-content: top;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  min-width: 300px;
+}
+
+
+/*TITULO FORMA DE PAGAMENTO: BOLETO*/
+.tboleto {
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+  font-size: 25px;
+}
+
+
+/*IMAGEM ILUSTRATIVA  - FORMA DE PAGAMENTO: BOLETO*/
+.qr2 {
+  background-image: url('./imagens/boleto.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 270px;
+  width: 270px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*CONTAINER FORMA DE PAGAMENTO: CREDITO*/
+.credito {
+  flex: 1;
+  height: 410px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+  justify-content: top;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/*TITULO FORMA DE PAGAMENTO: CREDITO*/
+.tc {
+  font-family: "Rubik Mono One", monospace;
+  font-style: normal;
+  font-size: 25px;
+}
+
+
+/*IMAGEM ILUSTRATIVA  - FORMA DE PAGAMENTO: CREDITO*/
+.qr3 {
+  background-image: url('./imagens/credit.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 350px;
+  width: 350px;
+  margin-bottom: 60px;
+}
+
+
+
+/*EFEITO BORDA NO TOPO AO SELECIONAR O CARD NAS FORMAS DE PAGAMENTO*/
+.pix:hover,
+.boleto:hover,
+.credito:hover {
+  border-top: 5px black solid;
+}
+
+.borda-ativa {
+  border-top: 5px black solid;
+}
+
+.sem-borda {
+  border: none;
+}
+
+
+
+
+
+/*CONTAINER- BOTAO PROSSEGUIR*/
+.bb {
+  display: flex;
+  justify-content: right;
+  width: 97%;
+  margin-bottom: 70px;
+  margin-right: 20px;
+}
+
+/*IMAGEM E BOTAO PROSSEGUIR*/
+.bu {
+  background-image: url('./imagens/enviar.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 80px;
+  width: 80px;
+  border: none;
+  background-color: white;
+  padding-bottom: 50px;
+  cursor: pointer;
+  margin-top: 60px;
+}

@@ -1,0 +1,597 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gagalin&display=swap');
+
+
+
+
+
+
+
+/*REPONSIVIDADE*/
+
+
+
+
+
+
+
+
+
+@media (min-width: 0px) and (max-width: 861px) {
+
+
+  .fpa {
+    z-index: 5;
+  }
+
+  .pl {
+    font-size: 17px;
+  }
+
+  .titca {
+    height: 100px;
+    width: 150px;
+    top: 10px;
+    right: 10px;
+    position: absolute;
+    margin-right: 0px;
+    margin-top: 0px;
+  }
+
+  .ini {
+    width: 100px;
+    height: 100px;
+    top: 20px;
+    left: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    position: absolute;
+  }
+
+  .fp {
+    font-size: 17px;
+  }
+
+  .containercre {
+    height: 400px;
+  }
+
+  .credito {
+    height: 400px;
+  }
+
+  .credito1 {
+    width: 80%;
+  }
+
+  .credito11 {
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .bb {
+    height: 0px;
+    margin-bottom: 0px;
+  }
+
+  .bu {
+    margin-top: 300px;
+    margin-bottom: 200px;
+  }
+
+  input::placeholder {
+    font-size: 13px;
+  }
+
+  .juros {
+    font-size: 13px;
+  }
+
+  .da {
+    font-size: 13px;
+  }
+
+
+
+}
+
+
+@media (min-width: 0px) and (max-width: 300px) {
+  input::placeholder {
+    font-size: 11px;
+  }
+
+  .juros {
+    font-size: 11px;
+  }
+
+  .da {
+    font-size: 11px;
+  }
+
+  .bb {
+    width: 100%;
+    height: 100%;
+  }
+
+  .bu {
+    margin-top: 470px;
+    margin-bottom: 50px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 608px) {
+  .sp {
+    margin-top: 0px;
+  }
+
+  .bb {
+    width: 100%;
+    height: 100%;
+  }
+
+  .bu {
+    margin-top: 470px;
+    margin-bottom: 50px;
+  }
+}
+
+@media (min-width: 609px) and (max-width: 861px) {
+
+  .pl {
+    font-size: 17px;
+  }
+
+  .titca {
+
+    height: 200px;
+    width: 250px;
+    top: 10px;
+    right: 10px;
+    position: absolute;
+    margin-right: 0px;
+    margin-top: 0px;
+  }
+
+  .ini {
+    width: 130px;
+    height: 130px;
+    top: 20px;
+    left: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    position: absolute;
+  }
+
+  .fp {
+    font-size: 25px;
+  }
+
+  .bb {
+    height: 80px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+  }
+
+  .bu {
+    margin-top: 0px;
+  }
+}
+
+
+@media (min-width: 0px) and (max-width: 1518px) {
+
+  .boleto {
+    width: 100%;
+    min-height: 450px;
+    justify-content: center;
+    align-items: center;
+    min-width: 250px;
+  }
+
+  .boleto11 {
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .bab {
+    position: absolute;
+    font-size: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 290px;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+
+  .qr2 {
+    margin-left: 0px;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 80px;
+  }
+
+  .tboleto {
+    margin-left: 0px;
+  }
+
+
+
+
+
+  .pix {
+    width: 100%;
+    min-height: 450px;
+    justify-content: center;
+    align-items: center;
+    min-width: 250px;
+  }
+
+
+  .pix11 {
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+
+  .cpix {
+    position: absolute;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 290px;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+
+
+  .qr1 {
+    margin-left: 0px;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 80px;
+  }
+
+
+  .tpix {
+    margin-left: 0px;
+  }
+
+}
+
+
+
+
+@media (min-width: 466px) and (max-width: 800px) {
+
+  .confpag1 {
+    width: 80%;
+    font-size: 12px;
+  }
+
+  .confpag2 {
+    width: 80%;
+    font-size: 12px;
+  }
+
+  .tsp {
+    font-size: 20px;
+  }
+
+  .tipoplano {
+    margin-top: 20px;
+  }
+
+  #tipoplano1 {
+    font-size: 15px;
+  }
+
+  #valorplano1 {
+    font-size: 15px;
+  }
+
+  #formap1 {
+    font-size: 15px;
+  }
+
+  #sit1 {
+    font-size: 15px;
+  }
+
+  #prop1 {
+    font-size: 15px;
+  }
+
+  #ext1 {
+    font-size: 15px;
+  }
+
+
+
+
+
+  #tipoplano2 {
+    font-size: 15px;
+  }
+
+  #valorplano2 {
+    font-size: 15px;
+  }
+
+  #formap2 {
+    font-size: 15px;
+  }
+
+  #sit2 {
+    font-size: 15px;
+  }
+
+  #prop2 {
+    font-size: 15px;
+  }
+
+  #ext2 {
+    font-size: 15px;
+  }
+}
+
+
+
+
+
+@media (min-width: 360px) and (max-width:510px) {
+
+  .confpag1 {
+    width: 80%;
+    font-size: 11px;
+  }
+
+  .confpag2 {
+    width: 80%;
+    font-size: 11px;
+  }
+
+  .tsp {
+    font-size: 15px;
+  }
+
+  .tipoplano {
+    margin-top: 11px;
+  }
+
+  #tipoplano1 {
+    font-size: 11px;
+  }
+
+  #valorplano1 {
+    font-size: 11px;
+  }
+
+  #formap1 {
+    font-size: 11px;
+  }
+
+  #sit1 {
+    font-size: 11px;
+  }
+
+  #prop1 {
+    font-size: 11px;
+  }
+
+  #ext1 {
+    font-size: 11px;
+  }
+
+
+
+
+
+  #tipoplano2 {
+    font-size: 11px;
+    margin-left: 5px;
+  }
+
+  #valorplano2 {
+    font-size: 11px;
+    margin-left: 5px;
+  }
+
+  #formap2 {
+    font-size: 11px;
+    margin-left: 5px;
+  }
+
+  #sit2 {
+    font-size: 11px;
+    margin-left: 5px;
+  }
+
+  #prop2 {
+    font-size: 11px;
+    margin-left: 5px;
+  }
+
+  #prop3 {
+    font-size: 11px;
+  }
+
+  #prop33 {
+    font-size: 11px;
+    margin-left: 5px;
+  }
+
+
+  #ext2 {
+    font-size: 11px;
+    margin-left: 5px;
+  }
+}
+
+
+
+
+@media (min-width: 0px) and (max-width: 466px) {
+  .confpag1 {
+    width: 80%;
+    font-size: 11px;
+  }
+
+
+  .confpag2 {
+    width: 80%;
+    font-size: 11px;
+  }
+
+
+  .tsp {
+    font-size: 15px;
+  }
+
+  .tipoplano {
+    margin-top: 11px;
+  }
+
+  #tipoplano1 {
+    font-size: 11px;
+  }
+
+  #valorplano1 {
+    font-size: 11px;
+  }
+
+  #formap1 {
+    font-size: 11px;
+  }
+
+  #sit1 {
+    font-size: 11px;
+  }
+
+  #prop1 {
+    font-size: 11px;
+  }
+
+  #ext1 {
+    font-size: 11px;
+  }
+
+
+
+
+
+  #tipoplano2 {
+    font-size: 11px;
+    margin-left: 5px;
+  }
+
+  #valorplano2 {
+    font-size: 11px;
+    margin-left: 5px;
+  }
+
+  #formap2 {
+    font-size: 11px;
+    margin-left: 5px;
+  }
+
+  #sit2 {
+    font-size: 11px;
+    margin-left: 5px;
+  }
+
+  #prop2 {
+    font-size: 11px;
+    margin-left: 5px;
+  }
+
+  #ext2 {
+    font-size: 11px;
+    margin-left: 5px;
+  }
+
+
+
+  .sp {
+    height: 850px;
+    width: 98%;
+  }
+
+  #prop3 {
+    font-size: 11px;
+    margin-top: 100px;
+  }
+
+  #prop33 {
+    font-size: 11px;
+    margin-top: 100px;
+    margin-left: 5px;
+    margin-right: 50px;
+  }
+
+  .confpag1 {
+    margin-top: 120px;
+  }
+
+  .confpag2 {
+    margin-top: 120px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 608px) {
+
+  .bb {
+    position: static;
+    margin-top: 50px;
+    bottom: 0px;
+  }
+
+  .bu {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .credito1 {
+
+    display: none;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 1070px) {
+  .sp {
+    height: 800px;
+  }
+}
+
+
+@media (min-width: 466px) and (max-width: 1070px) {
+
+  #prop3 {
+    margin-top: 100px;
+  }
+
+  #prop33 {
+    margin-top: 100px;
+  }
+
+  .confpag1 {
+    margin-top: 120px;
+  }
+
+  .confpag2 {
+    margin-top: 120px;
+  }
+}
